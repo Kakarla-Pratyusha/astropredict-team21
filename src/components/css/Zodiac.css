@@ -1,0 +1,147 @@
+#Wrapper{
+    height: 700px;
+    width: 600px;
+    background: url(https://wallpapersite.com/images/wallpapers/stars-3840x2160-galaxy-4k-6362.jpg);
+    background-size: auto 100%;
+    padding: 30px;
+    padding-bottom: 40px;
+    color: white;
+  }
+  .body {
+    margin: 0px;
+}
+  
+      #ContantWrapper{
+        height: 700px;
+        width: 600px;
+        background: rgba(0,0,0,0.6);
+        margin: auto;
+        border: black solid 4px;
+        position: relative;
+      }
+      .header{
+        width: 100%;
+        height: 180px;
+        border-bottom: 2px solid black;
+        background: #17181a;
+      }
+      .header img{
+        height: 100%;
+        float: left;
+      }
+      .footer{
+        color: white;
+        font-size: 14pt;
+        font-family: 'Amatic SC', cursive;
+        float: right;
+      }
+      .cont{
+        height: 450px;
+        padding: 10px;
+        font-size: 16pt;
+        overflow-y: auto;
+        border-bottom: 2px solid black;
+        
+      }
+      .ofWater{
+        background: rgba(0,0,150,0.2);
+      }
+      .ofAir{
+        background: rgba(50,204,223,0.2);
+      }
+      .ofEarth{
+        background: rgba(139,69,19,0.2);
+      }
+      .ofFire{
+        background: rgba(250,0,0,0.2);
+      }
+      .h1{
+        display: inline-block;
+        padding-top: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 24pt;
+      }
+      .menubtn{
+        border: solid black;
+        padding: 3px;
+        margin: 8px;
+        position: relative;
+        width: 100px;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        background: rgba(250,250,250,0.3);
+        color: black;
+      }
+      .menubtn:hover{
+        background: rgba(250,250,250,0.4);
+      }
+      .bigbox{
+        width: calc(100% - 44px);
+        margin: 5px;
+        border: 2px rgba(0,0,0,0.8) solid;
+        padding: 0 15px;
+        padding-bottom: 10px;
+        text-align: justify;
+        background: rgba(250,250,250,0.3);
+        color: black;
+      }
+      .box{
+        width: 40%;
+        height: 180px;
+        padding: 0 15px;
+        border: 2px rgba(0,0,0,0.8) solid;
+        margin: 5px;
+        background: rgba(250,250,250,0.3);
+        text-align: left;
+        color: black;
+        overflow: hidden;
+        overflow-y:auto;
+      }
+      .bigbox span, .box span{
+        display: block;
+        background: rgba(0,0,0,0.8);
+        text-align: center;
+        color: white;
+        margin: 0 -15px;
+        z-index: 2;
+        position: relative;
+      }
+      .fleft{
+        float: left;
+      }
+      .fright{
+        float: right;
+      }
+      .clb{
+        clear: both;
+      }
+      #intro{
+        display: block;
+      }
+      #cancer, #scorpio, #pisces, #gemini, #libra, #aquarius, #taurus, #virgo, #capricorn, #aries, #leo, #sagittarius {
+        display: none;
+      }
+      .click{
+        cursor: pointer;
+      }
+  
+      /* width */
+      ::-webkit-scrollbar {
+        width: 15px;
+      }
+  
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: url(https://wallpapersite.com/images/wallpapers/stars-3840x2160-galaxy-4k-6362.jpg); 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgba(250,250,250,0.1); 
+      }
+  
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(250,250,250,0.2); 
+      }

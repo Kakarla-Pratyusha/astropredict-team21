@@ -1,0 +1,161 @@
+.defheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(174, 174, 174);
+    height: 100px;
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+    
+  
+  }
+  
+.navigationdef {
+    padding: 10px;
+    width: 224px;
+    margin-left: 50px;
+    margin-top: 10px;
+  
+  }
+  
+.navdef {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(5, 0, 0);
+    font-family: inter;
+}
+  
+.menudef {
+    margin-right: 40px;
+    color: black;
+    font-weight: 600;
+  }
+
+
+  
+.menudef:hover{ 
+    color:aquamarine;
+  }
+  
+.first-things  h1 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 70px;
+  }
+  
+  .float {
+    background: black; 
+    text-align: center;
+    background-image: url('https://i.ibb.co/jgv75Cy/underwater-2170473.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    padding-top:100px;
+   
+  }
+
+  .tex{
+    color:white;
+    text-align:center;
+    padding-left: 20%;
+    padding-right: 10%;
+    width: 90%;
+    }
+  
+  .transparent{
+    background-color: rgba(0,0,0, 0.50);
+    margin-top: 50px;
+  }
+  
+  .zodiac-scorpio {
+    width: 120px;
+  }
+  
+  .zodiac-gemini img {
+    width: 100%;
+  }
+  .zodiac-gemini {
+    width: 120px;
+  }
+  
+  .zodiac-cancer img {
+    width: 100%;
+  }
+  .zodiac-cancer {
+    width: 120px;
+  }
+  .zodiac-taurus img {
+    width: 100%;
+  }
+  .zodiac-taurus {
+    width: 120px;
+  }
+  .zodiac-virgo img {
+    width: 100%;
+  }
+  .zodiac-virgo {
+    width: 120px;
+  }
+  .zodiac-libra img {
+    width: 100%;
+  }
+  .zodiac-libra {
+    width: 120px;
+  }
+  
+  .zodiac-capricorn img {
+    width: 100%;
+  }
+  .zodiac-capricorn {
+    width: 120px;
+  }
+  .zodiac-aquarius img {
+    width: 100%;
+  }
+  .zodiac-aquarius {
+    width: 120px;
+  }
+  
+  .zodiac-pisces img {
+    width: 100%;
+  }
+  .zodiac-pisces {
+    width: 120px;
+  }
+  
+  .zodiac-aries img {
+    width: 100%;
+  }
+  .zodiac-aries {
+    width: 120px;
+  }
+  
+  .zodiac-leo img {
+    width: 100%;
+  }
+  .zodiac-leo {
+    width: 120px;
+  }
+  .zodiac-sagitarius img {
+    width: 100%;
+  }
+  .zodiac-sagitarius {
+    width: 120px;
+  }
+  
+  .zodiac-scorpio img {
+    width: 100%;
+  }
+  
+  .all-zos {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .all-diacs {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }

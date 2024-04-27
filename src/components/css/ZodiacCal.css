@@ -1,0 +1,73 @@
+.zback{
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+  height: 100vh;
+}
+.card3 {
+    width: 80%;
+    max-width: 600px; /* adjust as needed */
+    margin: auto; /* centers horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Add this if you want to add space between elements inside the card */
+.card3 > * {
+    margin: 0.5rem;
+  }
+
+.card3 input{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 30px;
+    color: #000000;
+  }
+  
+.button1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* increase the gap between buttons */
+  }
+  
+.button1-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+  
+.button1 {
+    border: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    
+  }
+  
+.button1:hover {
+    background-color: #000000;
+    color: gold;
+  }
+  
+  
+#output{
+  color: gold;
+  padding-right: 100px;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}

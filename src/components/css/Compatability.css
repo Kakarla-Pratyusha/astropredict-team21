@@ -1,0 +1,11 @@
+.comp{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.57),rgba(0, 0, 0, 0.51)), url('../images/lh.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:140vh;
+    color:white;
+    
+    justify-content: center;
+    align-items: center;
+}
